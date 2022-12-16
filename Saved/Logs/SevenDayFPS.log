@@ -1227,3 +1227,718 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.12.16-19.02.39:131][918]SourceControl: Commited [main 5de471b] Finished gray box version of level 1 human world and ghost world..
 [2022.12.16-19.02.39:167][919]AssetCheck: New page: Asset Save: Level1
 [2022.12.16-19.02.39:167][919]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2022.12.16-19.03.26:017][209]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.12.16-19.03.26:027][209]LogContentBrowser: Creating deferred item: NewWorld
+[2022.12.16-19.03.26:996][325]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2022.12.16-19.03.27:089][325]LogContentBrowser: End creating deferred item NewWorld
+[2022.12.16-19.03.31:550][854]LogObjectTools: Deleting 1 worlds: /Game/Maps/NewWorld.NewWorld
+[2022.12.16-19.03.31:550][854]LogObjectTools: Currently 9 active worlds: /Game/Maps/Level1.Level1, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2022.12.16-19.03.31:555][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.12.16-19.03.34:336][854]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.16-19.03.34:364][854]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.12.16-19.03.34:364][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-19.03.34:420][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.16-21.31.48:828][800]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.12.16-21.31.48:838][800]LogContentBrowser: Creating deferred item: NewWorld
+[2022.12.16-21.31.52:094][191]LogContentBrowser: Attempting asset rename: NewWorld -> Level2
+[2022.12.16-21.31.52:202][191]LogContentBrowser: End creating deferred item NewWorld
+[2022.12.16-21.31.55:408][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.12.16-21.32.02:559][568]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-21.32.02:689][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.32.02:694][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.12.16-21.32.02:695][568]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level28384FEA74D370C38B4F27AA5A5CFC3D8.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.32.02:952][568]LogFileHelpers: Saving map 'Level2' took 0.264
+[2022.12.16-21.32.02:971][568]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level2.Level2
+[2022.12.16-21.32.02:971][568]Cmd: MAP LOAD FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.16-21.32.02:971][568]LightingResults: New page: Lighting Build
+[2022.12.16-21.32.02:971][568]LoadErrors: New page: Loading map: Level2.umap
+[2022.12.16-21.32.02:994][568]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.12.16-21.32.02:994][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.32.02:994][568]MapCheck: New page: Map Check
+[2022.12.16-21.32.02:994][568]LightingResults: New page: Lighting Build
+[2022.12.16-21.32.02:999][568]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.16-21.32.03:001][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.12.16-21.32.03:001][568]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2022.12.16-21.32.03:019][568]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.16-21.32.03:019][568]LogAIModule: Creating AISystem for world Level2
+[2022.12.16-21.32.03:025][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.16-21.32.03:029][568]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.16-21.32.03:029][568]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.058ms to complete.
+[2022.12.16-21.32.03:029][568]LogFileHelpers: Loading map 'Level2' took 0.058
+[2022.12.16-21.32.03:048][568]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.32.03:048][568]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.32.13:303][781]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.32.13:544][809]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.32.28:825][589]Cmd: TRANSACTION UNDO
+[2022.12.16-21.32.28:825][589]LogEditorTransaction: Undo Create Actors
+[2022.12.16-21.32.37:622][544]Cmd: EDIT COPY
+[2022.12.16-21.32.37:879][574]Cmd: EDIT PASTE
+[2022.12.16-21.32.40:018][827]Cmd: EDIT COPY
+[2022.12.16-21.32.40:310][862]Cmd: EDIT PASTE
+[2022.12.16-21.32.49:300][930]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2022.12.16-21.32.54:833][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.32.54:839][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.12.16-21.32.54:842][572]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level28DE02190490181EA2A84CFB8452A42CC.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.32.54:855][572]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.32.54:855][572]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.33.02:604][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.33.26:894][997]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2022.12.16-21.33.43:408][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.33.43:414][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.12.16-21.33.43:417][892]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level28CF48D2746282778FC6EFD85AC745321.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.33.43:430][892]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.33.43:430][892]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.33.46:995][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.34.10:187][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.34.22:198][251]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.12.16-21.34.25:491][643]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.12.16-21.34.26:266][735]Cmd: DELETE
+[2022.12.16-21.34.26:266][735]Cmd: ACTOR DELETE
+[2022.12.16-21.34.26:267][735]LogEditorActor: Deleted Actor: PlayerStart
+[2022.12.16-21.34.26:273][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.12.16-21.34.26:275][735]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.12.16-21.35.36:581][322]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.35.38:105][501]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.36.02:830][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.36.04:457][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.12.16-21.36.06:975][583]Cmd: TRANSACTION UNDO
+[2022.12.16-21.36.06:975][583]LogEditorTransaction: Undo Reset to Default
+[2022.12.16-21.36.12:688][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.12.16-21.36.15:979][500]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.36.17:327][648]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.36.54:649][847]Cmd: EDIT COPY
+[2022.12.16-21.36.54:932][881]Cmd: EDIT PASTE
+[2022.12.16-21.37.07:018][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.37.08:820][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2022.12.16-21.37.09:805][601]Cmd: EDIT COPY
+[2022.12.16-21.37.10:036][628]Cmd: EDIT PASTE
+[2022.12.16-21.37.27:395][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.37.29:808][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2022.12.16-21.37.35:417][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.37.41:763][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2022.12.16-21.37.51:213][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.38.12:874][903]Cmd: TRANSACTION UNDO
+[2022.12.16-21.38.12:874][903]LogEditorTransaction: Undo Create Actors
+[2022.12.16-21.38.14:081][981]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.38.15:819][181]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.38.30:449][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.38.31:273][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2022.12.16-21.38.39:276][868]Cmd: EDIT COPY
+[2022.12.16-21.38.39:563][892]Cmd: EDIT PASTE
+[2022.12.16-21.38.53:257][463]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.38.58:277][ 59]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.39.27:801][384]Cmd: EDIT COPY
+[2022.12.16-21.39.28:036][412]Cmd: EDIT PASTE
+[2022.12.16-21.39.37:132][427]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.16-21.39.37:138][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.16-21.39.37:138][427]PIE: New page: PIE session: Level2 (16 Dec 2022, 11:39:37)
+[2022.12.16-21.39.37:164][427]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.39.37:165][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001237s)
+[2022.12.16-21.39.37:166][427]LogAIModule: Creating AISystem for world Level2
+[2022.12.16-21.39.37:166][427]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2022.12.16-21.39.37:166][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.002222s)
+[2022.12.16-21.39.37:171][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.12.16-21.39.37:172][427]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.16-21.39.37:172][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.16-21.39.37:172][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.16-21.39.37:173][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.16-21.39.37:173][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.16-21.39.37:173][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.16-21.39.37:173][427]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.16-21.39.37:179][427]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.16-21.39.37:179][427]LogAudioMixer: Display: 1: FrontRight
+[2022.12.16-21.39.37:195][427]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2022.12.16-21.39.37:195][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.16-21.39.37:195][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.16-21.39.37:195][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.16-21.39.37:195][427]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.16-21.39.37:195][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.16-21.39.37:195][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.16-21.39.37:196][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.16-21.39.37:196][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.16-21.39.37:196][427]LogInit: FAudioDevice initialized.
+[2022.12.16-21.39.37:196][427]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level2'.
+[2022.12.16-21.39.37:202][427]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.12.16-21.39.37:204][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2022.12.16-16.39.37
+[2022.12.16-21.39.37:204][427]LogWorld: Bringing up level for play took: 0.000536
+[2022.12.16-21.39.37:204][427]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.12.16-21.39.37:207][427]PIE: Server logged in
+[2022.12.16-21.39.37:208][427]PIE: Play in editor total start time 0.072 seconds.
+[2022.12.16-21.39.41:317][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.39.41:317][915]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.39.41:317][915]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2022.12.16-21.39.41:317][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.39.41:322][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.16-21.39.41:334][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.39.41:339][915]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.16-21.39.41:339][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.39.41:340][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.39.41:341][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.39.41:343][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.16-21.39.41:404][917]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.12.16-21.39.45:523][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2022.12.16-21.39.46:398][492]Cmd: DELETE
+[2022.12.16-21.39.46:398][492]Cmd: ACTOR DELETE
+[2022.12.16-21.39.46:399][492]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.16-21.39.46:404][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.12.16-21.39.46:405][492]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.12.16-21.39.46:864][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.39.52:127][169]Cmd: TRANSACTION UNDO
+[2022.12.16-21.39.52:127][169]LogEditorTransaction: Undo Scale Actors
+[2022.12.16-21.40.13:773][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.12.16-21.40.27:801][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.40.33:527][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.12.16-21.40.37:795][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.40.38:190][428]Cmd: EDIT COPY
+[2022.12.16-21.40.38:420][455]Cmd: EDIT PASTE
+[2022.12.16-21.41.01:274][169]Cmd: TRANSACTION UNDO
+[2022.12.16-21.41.01:274][169]LogEditorTransaction: Undo Scale Actors
+[2022.12.16-21.41.11:177][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.41.21:604][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.12.16-21.41.26:407][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.41.27:100][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.41.27:561][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2022.12.16-21.41.28:837][259]Cmd: EDIT COPY
+[2022.12.16-21.41.29:061][285]Cmd: EDIT PASTE
+[2022.12.16-21.41.34:134][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.41.34:139][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.12.16-21.41.34:144][874]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2D8B03B9846E927BD04FD6EA5D1EC3F57.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.41.34:155][874]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.41.34:155][874]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.41.42:933][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2022.12.16-21.41.50:463][788]Cmd: EDIT COPY
+[2022.12.16-21.41.50:691][815]Cmd: EDIT PASTE
+[2022.12.16-21.42.16:629][626]Cmd: TRANSACTION UNDO
+[2022.12.16-21.42.16:629][626]LogEditorTransaction: Undo Create Actors
+[2022.12.16-21.42.20:736][ 60]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.24:829][533]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.28:839][975]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.29:949][100]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.45:539][507]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.47:203][697]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.50:637][ 69]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.42.52:402][274]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.43.00:900][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.43.06:561][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2022.12.16-21.43.23:097][560]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.43.24:170][682]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.43.55:472][307]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.16-21.43.55:478][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.16-21.43.55:478][307]PIE: New page: PIE session: Level2 (16 Dec 2022, 11:43:55)
+[2022.12.16-21.43.55:514][307]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.43.55:515][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001361s)
+[2022.12.16-21.43.55:516][307]LogAIModule: Creating AISystem for world Level2
+[2022.12.16-21.43.55:516][307]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2022.12.16-21.43.55:516][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.002335s)
+[2022.12.16-21.43.55:521][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.16-21.43.55:522][307]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.16-21.43.55:522][307]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.16-21.43.55:522][307]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.16-21.43.55:523][307]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.16-21.43.55:523][307]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.16-21.43.55:523][307]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.16-21.43.55:523][307]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.16-21.43.55:527][307]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.16-21.43.55:527][307]LogAudioMixer: Display: 1: FrontRight
+[2022.12.16-21.43.55:537][307]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2022.12.16-21.43.55:537][307]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.16-21.43.55:537][307]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.16-21.43.55:537][307]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.16-21.43.55:537][307]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.16-21.43.55:537][307]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.16-21.43.55:537][307]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.16-21.43.55:538][307]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.16-21.43.55:538][307]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.16-21.43.55:538][307]LogInit: FAudioDevice initialized.
+[2022.12.16-21.43.55:538][307]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level2'.
+[2022.12.16-21.43.55:545][307]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.12.16-21.43.55:545][307]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2022.12.16-16.43.55
+[2022.12.16-21.43.55:545][307]LogWorld: Bringing up level for play took: 0.000609
+[2022.12.16-21.43.55:546][307]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.12.16-21.43.55:548][307]PIE: Server logged in
+[2022.12.16-21.43.55:549][307]PIE: Play in editor total start time 0.073 seconds.
+[2022.12.16-21.44.07:037][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.44.07:037][681]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.44.07:037][681]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2022.12.16-21.44.07:037][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.44.07:046][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.16-21.44.07:053][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.44.07:057][681]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.16-21.44.07:058][681]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.44.07:058][681]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.44.07:060][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.44.07:061][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.16-21.44.07:118][683]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.12.16-21.44.44:785][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.44.44:790][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.12.16-21.44.44:832][ 84]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level29B46FE9C4768C3E90CB622ADDA6B6764.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.44.44:844][ 84]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.44.44:844][ 84]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.45.07:485][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2022.12.16-21.45.11:080][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2022.12.16-21.45.20:149][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2022.12.16-21.45.20:288][221]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.12.16-21.45.38:799][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.45.38:803][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.12.16-21.45.38:809][372]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level28874F3CB4027CB51C94AA8BBB305EA90.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.45.38:821][372]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.45.38:821][372]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.45.59:801][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.45.59:805][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.12.16-21.45.59:812][873]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2B41C22E440FD00F47851EE9CDBB4122E.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.45.59:823][873]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.45.59:823][873]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.46.10:688][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-21.48.47:300][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.48.50:493][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.48.50:979][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-21.48.52:816][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.49.03:316][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-21.49.04:275][859]Cmd: DELETE
+[2022.12.16-21.49.04:275][859]Cmd: ACTOR DELETE
+[2022.12.16-21.49.04:276][859]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.16-21.49.04:281][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.12.16-21.49.04:282][859]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.12.16-21.49.05:216][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.49.22:605][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.49.23:517][613]Cmd: EDIT COPY
+[2022.12.16-21.49.23:741][639]Cmd: EDIT PASTE
+[2022.12.16-21.49.33:294][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.49.40:972][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-21.50.11:773][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.50.19:760][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-21.50.27:796][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2022.12.16-21.50.27:986][ 54]Cmd: EDIT COPY
+[2022.12.16-21.50.28:217][ 70]Cmd: EDIT PASTE
+[2022.12.16-21.50.56:555][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-21.51.06:819][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.51.06:829][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.12.16-21.51.06:854][404]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level28775C20E45A36AE68CF017BDA9A79CAF.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.51.06:867][404]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.51.06:867][404]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.51.07:670][495]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.16-21.51.07:678][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.16-21.51.07:678][495]PIE: New page: PIE session: Level2 (16 Dec 2022, 11:51:07)
+[2022.12.16-21.51.07:705][495]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.51.07:707][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002235s)
+[2022.12.16-21.51.07:708][495]LogAIModule: Creating AISystem for world Level2
+[2022.12.16-21.51.07:708][495]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2022.12.16-21.51.07:708][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.003388s)
+[2022.12.16-21.51.07:713][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.16-21.51.07:714][495]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.16-21.51.07:714][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.16-21.51.07:714][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.16-21.51.07:715][495]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.16-21.51.07:715][495]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.16-21.51.07:715][495]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.16-21.51.07:715][495]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.16-21.51.07:720][495]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.16-21.51.07:720][495]LogAudioMixer: Display: 1: FrontRight
+[2022.12.16-21.51.07:729][495]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2022.12.16-21.51.07:729][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.16-21.51.07:729][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.16-21.51.07:729][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.16-21.51.07:730][495]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.16-21.51.07:730][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.16-21.51.07:730][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.16-21.51.07:731][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.16-21.51.07:731][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.16-21.51.07:731][495]LogInit: FAudioDevice initialized.
+[2022.12.16-21.51.07:731][495]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level2'.
+[2022.12.16-21.51.07:742][495]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.12.16-21.51.07:745][495]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2022.12.16-16.51.07
+[2022.12.16-21.51.07:746][495]LogWorld: Bringing up level for play took: 0.003223
+[2022.12.16-21.51.07:746][495]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.12.16-21.51.07:751][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_0
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.51.07:752][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.51.07:752][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_0
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.51.07:752][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.51.07:752][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_1
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.51.07:752][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.51.07:752][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_1
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.51.07:752][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.51.07:752][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_2
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.51.07:752][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.51.07:752][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_2
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.51.07:753][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.51.07:753][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_3
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.51.07:753][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.51.07:753][495]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_3
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.51.07:753][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.51.07:754][495]PIE: Server logged in
+[2022.12.16-21.51.07:755][495]PIE: Play in editor total start time 0.081 seconds.
+[2022.12.16-21.51.07:926][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.51.07:927][511]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.51.07:927][511]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2022.12.16-21.51.07:927][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.51.07:936][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.16-21.51.07:965][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.51.07:969][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.51.07:969][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.51.07:970][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.51.07:974][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.12.16-21.51.08:018][511]LogSlate: Took 0.001804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.12.16-21.51.08:046][512]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.12.16-21.51.26:888][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.12.16-21.51.31:323][827]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.51.32:017][898]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.51.41:027][695]Cmd: EDIT COPY
+[2022.12.16-21.51.41:245][721]Cmd: EDIT PASTE
+[2022.12.16-21.51.45:152][ 67]Cmd: EDIT COPY
+[2022.12.16-21.51.45:377][ 94]Cmd: EDIT PASTE
+[2022.12.16-21.51.51:337][681]Cmd: EDIT COPY
+[2022.12.16-21.51.51:735][728]Cmd: EDIT PASTE
+[2022.12.16-21.52.00:249][158]Cmd: EDIT COPY
+[2022.12.16-21.52.00:475][185]Cmd: EDIT PASTE
+[2022.12.16-21.52.05:985][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2022.12.16-21.52.07:783][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2022.12.16-21.52.09:229][ 22]Cmd: EDIT COPY
+[2022.12.16-21.52.09:455][ 49]Cmd: EDIT PASTE
+[2022.12.16-21.52.20:278][599]Cmd: EDIT COPY
+[2022.12.16-21.52.20:546][631]Cmd: EDIT PASTE
+[2022.12.16-21.52.22:792][895]Cmd: EDIT COPY
+[2022.12.16-21.52.23:028][923]Cmd: EDIT PASTE
+[2022.12.16-21.52.30:270][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.53.01:377][797]Cmd: EDIT COPY
+[2022.12.16-21.53.01:386][798]Cmd: EDIT CUT
+[2022.12.16-21.53.01:388][798]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.16-21.53.01:393][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.16-21.53.01:395][798]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.12.16-21.53.02:210][896]Cmd: TRANSACTION UNDO
+[2022.12.16-21.53.02:210][896]LogEditorTransaction: Undo Cut
+[2022.12.16-21.53.02:226][896]Cmd: EDIT CUT
+[2022.12.16-21.53.02:228][896]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.16-21.53.02:234][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.12.16-21.53.02:234][896]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.12.16-21.53.03:018][946]Cmd: TRANSACTION UNDO
+[2022.12.16-21.53.03:018][946]LogEditorTransaction: Undo Cut
+[2022.12.16-21.53.03:785][ 34]Cmd: SELECT NONE
+[2022.12.16-21.53.05:047][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.53.05:998][292]Cmd: EDIT COPY
+[2022.12.16-21.53.06:237][319]Cmd: EDIT PASTE
+[2022.12.16-21.53.16:289][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2022.12.16-21.53.16:528][160]Cmd: EDIT COPY
+[2022.12.16-21.53.16:760][187]Cmd: EDIT PASTE
+[2022.12.16-21.53.18:444][383]Cmd: TRANSACTION UNDO
+[2022.12.16-21.53.18:444][383]LogEditorTransaction: Undo Move Actors
+[2022.12.16-21.53.19:001][404]Cmd: TRANSACTION UNDO
+[2022.12.16-21.53.19:001][404]LogEditorTransaction: Undo Paste
+[2022.12.16-21.53.20:026][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.12.16-21.53.20:782][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube16)
+[2022.12.16-21.53.22:604][821]Cmd: EDIT COPY
+[2022.12.16-21.53.22:878][853]Cmd: EDIT PASTE
+[2022.12.16-21.53.29:065][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.53.38:345][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2022.12.16-21.53.39:020][651]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube28)
+[2022.12.16-21.53.50:278][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2022.12.16-21.53.53:488][283]Cmd: EDIT COPY
+[2022.12.16-21.53.53:713][309]Cmd: EDIT PASTE
+[2022.12.16-21.54.04:028][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.54.07:327][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.54.07:331][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.12.16-21.54.07:342][807]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level27C8B43EA4B80F19175748183FA93728F.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.54.07:354][807]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.54.07:354][807]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.54.52:016][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.54.52:020][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.16-21.54.52:033][955]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2527FCC2B47CAA1BB975EEFA8038B3F60.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.54.52:046][955]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.54.52:046][955]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.54.55:181][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.54.55:735][334]Cmd: EDIT COPY
+[2022.12.16-21.54.55:975][360]Cmd: EDIT PASTE
+[2022.12.16-21.55.18:214][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2022.12.16-21.55.20:465][ 49]Cmd: EDIT COPY
+[2022.12.16-21.55.20:697][ 77]Cmd: EDIT PASTE
+[2022.12.16-21.55.48:149][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.55.48:153][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.16-21.55.48:165][186]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level24684CB064F58D980DD3CEFBC6C646F2F.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.55.48:178][186]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.55.48:178][186]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.55.52:205][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2022.12.16-21.56.08:684][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-21.56.08:688][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.12.16-21.56.08:700][205]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2EA56C86F4AA07FDD2D6C658CF9229A8E.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-21.56.08:713][205]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-21.56.08:713][205]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-21.56.10:727][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.56.16:662][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2022.12.16-21.56.19:166][385]Cmd: EDIT COPY
+[2022.12.16-21.56.19:442][418]Cmd: EDIT PASTE
+[2022.12.16-21.56.22:110][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube32)
+[2022.12.16-21.56.40:833][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2022.12.16-21.56.46:781][445]Cmd: TRANSACTION UNDO
+[2022.12.16-21.56.46:781][445]LogEditorTransaction: Undo Scale Actors
+[2022.12.16-21.56.57:941][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2022.12.16-21.57.02:198][ 47]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.57.03:385][172]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.57.31:338][133]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.57.32:468][256]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.57.34:662][487]Cmd: TRANSACTION UNDO
+[2022.12.16-21.57.34:662][487]LogEditorTransaction: Undo Reset to Default
+[2022.12.16-21.57.58:788][907]Cmd: EDIT COPY
+[2022.12.16-21.57.59:032][936]Cmd: EDIT PASTE
+[2022.12.16-21.58.15:857][903]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.58.18:322][184]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.58.38:086][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2022.12.16-21.58.50:563][521]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.12.16-21.58.54:525][993]Cmd: EDIT COPY
+[2022.12.16-21.58.56:798][265]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.12.16-21.58.58:212][411]Cmd: EDIT PASTE
+[2022.12.16-21.58.58:215][411]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.12.16-21.59.00:147][605]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.12.16-21.59.03:522][975]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.12.16-21.59.04:610][102]Cmd: EDIT CUT
+[2022.12.16-21.59.04:612][102]LogEditorActor: Deleted Actor: PlayerStart
+[2022.12.16-21.59.04:618][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.12.16-21.59.04:620][102]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.12.16-21.59.07:736][459]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.16-21.59.07:744][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.16-21.59.07:744][459]PIE: New page: PIE session: Level2 (16 Dec 2022, 11:59:07)
+[2022.12.16-21.59.07:745][459]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.59.07:747][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003280s)
+[2022.12.16-21.59.07:748][459]LogAIModule: Creating AISystem for world Level2
+[2022.12.16-21.59.07:748][459]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2022.12.16-21.59.07:748][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.004232s)
+[2022.12.16-21.59.07:753][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.16-21.59.07:754][459]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.12.16-21.59.07:754][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.16-21.59.07:754][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.16-21.59.07:755][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.16-21.59.07:755][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.16-21.59.07:755][459]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.16-21.59.07:755][459]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.16-21.59.07:755][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.16-21.59.07:755][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.16-21.59.07:756][459]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.16-21.59.07:756][459]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.16-21.59.07:756][459]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.16-21.59.07:756][459]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.16-21.59.07:762][459]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.16-21.59.07:762][459]LogAudioMixer: Display: 1: FrontRight
+[2022.12.16-21.59.07:771][459]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2022.12.16-21.59.07:771][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.16-21.59.07:771][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.16-21.59.07:771][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.16-21.59.07:771][459]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.16-21.59.07:771][459]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.16-21.59.07:771][459]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.16-21.59.07:773][459]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.16-21.59.07:773][459]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.16-21.59.07:773][459]LogInit: FAudioDevice initialized.
+[2022.12.16-21.59.07:773][459]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level2'.
+[2022.12.16-21.59.07:782][459]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.12.16-21.59.07:785][459]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2022.12.16-16.59.07
+[2022.12.16-21.59.07:786][459]LogWorld: Bringing up level for play took: 0.003428
+[2022.12.16-21.59.07:786][459]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.12.16-21.59.07:790][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_0
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.59.07:790][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.59.07:790][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_0
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.59.07:790][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.59.07:791][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_1
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.59.07:791][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.59.07:791][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_1
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.59.07:791][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.59.07:791][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_2
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.59.07:791][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.59.07:791][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_2
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.59.07:791][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.59.07:791][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_3
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:0131
+[2022.12.16-21.59.07:792][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Bool
+[2022.12.16-21.59.07:792][459]LogScript: Warning: Accessed None trying to read property PatrolPath
+	Human_AI_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Human_AI_C_3
+	Function /Game/Blueprints/AI/Humans/Human_AI.Human_AI_C:ExecuteUbergraph_Human_AI:023D
+[2022.12.16-21.59.07:792][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPath". Blueprint:  Human_AI Function:  Execute Ubergraph Human AI Graph:  EventGraph Node:  Set Value as Float
+[2022.12.16-21.59.07:792][459]PIE: Server logged in
+[2022.12.16-21.59.07:793][459]PIE: Play in editor total start time 0.051 seconds.
+[2022.12.16-21.59.07:823][461]LogBlueprintUserMessages: [Human_ShootPlayer_C_0] Shoot
+[2022.12.16-21.59.08:878][574]LogBlueprintUserMessages: [Human_ShootPlayer_C_0] Shoot
+[2022.12.16-21.59.09:918][697]LogBlueprintUserMessages: [Human_ShootPlayer_C_0] Shoot
+[2022.12.16-21.59.11:551][893]LogBlueprintUserMessages: [Human_ShootPlayer_C_0] Shoot
+[2022.12.16-21.59.12:527][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.59.12:527][  6]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2022.12.16-21.59.12:528][  6]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2022.12.16-21.59.12:528][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.59.12:535][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.16-21.59.12:536][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.16-21.59.12:541][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.16-21.59.12:541][  6]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.59.12:542][  6]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.16-21.59.12:545][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.16-21.59.12:599][  7]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.12.16-21.59.15:729][315]Cmd: TRANSACTION UNDO
+[2022.12.16-21.59.15:729][315]LogEditorTransaction: Undo Cut
+[2022.12.16-21.59.17:448][448]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2022.12.16-21.59.18:366][543]Cmd: DELETE
+[2022.12.16-21.59.18:366][543]Cmd: ACTOR DELETE
+[2022.12.16-21.59.18:368][543]LogEditorActor: Deleted Actor: PlayerStart
+[2022.12.16-21.59.18:373][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.16-21.59.18:375][543]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.12.16-21.59.20:241][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2022.12.16-21.59.28:035][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2022.12.16-21.59.47:024][192]LogActorFactory: Actor Factory created Cube
+[2022.12.16-21.59.49:029][408]LogActorFactory: Actor Factory created Cube
+[2022.12.16-22.00.04:239][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2022.12.16-22.00.11:869][997]Cmd: TRANSACTION UNDO
+[2022.12.16-22.00.11:869][997]LogEditorTransaction: Undo Move Actors
+[2022.12.16-22.00.12:791][ 57]Cmd: TRANSACTION UNDO
+[2022.12.16-22.00.12:791][ 57]LogEditorTransaction: Undo Scale Actors
+[2022.12.16-22.00.14:943][279]LogActorFactory: Actor Factory created Cube
+[2022.12.16-22.00.16:546][445]LogActorFactory: Actor Factory created Cube
+[2022.12.16-22.00.18:714][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2022.12.16-22.00.19:561][761]Cmd: EDIT COPY
+[2022.12.16-22.00.19:814][790]Cmd: EDIT PASTE
+[2022.12.16-22.00.23:645][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube39)
+[2022.12.16-22.00.27:761][732]Cmd: EDIT COPY
+[2022.12.16-22.00.28:061][767]Cmd: EDIT PASTE
+[2022.12.16-22.00.28:076][767]Cmd: EDIT COPY
+[2022.12.16-22.00.31:163][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.00.31:167][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.16-22.00.31:180][ 59]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level23742CCBD4D605ACF7AC3E187BB1A55C3.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.00.31:193][ 59]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.00.31:193][ 59]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-22.00.32:413][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2022.12.16-22.00.35:311][522]Cmd: EDIT PASTE
+[2022.12.16-22.00.37:717][805]Cmd: TRANSACTION UNDO
+[2022.12.16-22.00.37:717][805]LogEditorTransaction: Undo Move Actors
+[2022.12.16-22.00.38:884][893]Cmd: TRANSACTION UNDO
+[2022.12.16-22.00.38:884][893]LogEditorTransaction: Undo Paste
+[2022.12.16-22.00.42:206][262]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube40)
+[2022.12.16-22.00.42:724][320]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube39)
+[2022.12.16-22.00.52:606][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2022.12.16-22.01.03:059][619]Cmd: EDIT COPY
+[2022.12.16-22.01.03:323][650]Cmd: EDIT PASTE
+[2022.12.16-22.01.07:353][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
+[2022.12.16-22.01.07:700][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube39)
+[2022.12.16-22.01.08:219][181]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube41)
+[2022.12.16-22.01.08:611][224]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube40)
+[2022.12.16-22.01.09:127][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
+[2022.12.16-22.01.09:565][330]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube40)
+[2022.12.16-22.01.16:013][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2022.12.16-22.01.25:330][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.01.25:336][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.12.16-22.01.25:349][ 94]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level23650469C459CE0FA8B018DAE94DB00E8.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.01.25:362][ 94]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.01.25:362][ 94]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-22.01.33:585][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.01.33:589][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.12.16-22.01.33:602][ 54]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2F174359D4A1CBEAFD75F859A603E4B33.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.01.33:615][ 54]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.01.33:615][ 54]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-22.01.36:752][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2022.12.16-22.01.50:936][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2022.12.16-22.02.10:051][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.02.10:056][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.12.16-22.02.10:069][223]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level203D5C13645B8F0334F851DB74744978E.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.02.10:083][223]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.02.10:083][223]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-22.02.16:309][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
+[2022.12.16-22.02.18:452][161]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube27)
+[2022.12.16-22.02.22:705][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2022.12.16-22.02.28:340][200]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube31)
+[2022.12.16-22.02.31:267][510]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube28)
+[2022.12.16-22.02.32:607][664]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube27)
+[2022.12.16-22.02.33:576][776]Cmd: EDIT COPY
+[2022.12.16-22.02.37:973][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2022.12.16-22.02.38:691][330]Cmd: DELETE
+[2022.12.16-22.02.38:691][330]Cmd: ACTOR DELETE
+[2022.12.16-22.02.38:693][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.16-22.02.38:697][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.12.16-22.02.38:698][330]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.12.16-22.02.39:852][468]Cmd: EDIT PASTE
+[2022.12.16-22.03.03:262][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.03.03:267][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.16-22.03.03:281][ 89]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level23F8572E14F3CCAD938C454A84EFF704B.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.03.03:294][ 89]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.03.03:294][ 89]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-22.03.43:330][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.03.43:335][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.16-22.03.43:348][375]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2D6FF72794B3DFC4E180185915A1778A3.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.03.43:361][375]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.03.43:361][375]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:657][ 47]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT'
+[2022.12.16-22.11.44:813][ 47]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset'. Attempt result was '../../Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice', but the path contains illegal characters '.'
+[2022.12.16-22.11.44:937][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.11.44:942][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.12.16-22.11.44:956][ 47]LogSavePackage: Moving 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Saved/Level2CBCA61C040FC89E6A04842A424DE3819.tmp' to 'D:/Users/dougr/Documents/GitHub/!. Unreal Engine/7DFSP-BDT/Content/Maps/Level2.umap'
+[2022.12.16-22.11.44:961][ 47]LogFileHelpers: Saving map 'Level2' took 0.024
+[2022.12.16-22.11.52:586][ 47]LogSlate: Window 'Submit Files' being destroyed
+[2022.12.16-22.11.53:223][ 47]LogSourceControl: commit successful: [main eaa7d2c] Started gray boxing level 2.
+[2022.12.16-22.11.53:300][ 47]SourceControl: [main eaa7d2c] Started gray boxing level 2.
+[2022.12.16-22.11.53:300][ 47]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2022.12.16-22.11.53:300][ 47]SourceControl:  create mode 100644 Content/Maps/Level2.umap
+[2022.12.16-22.11.53:307][ 47]SourceControl: Commited [main eaa7d2c] Started gray boxing level 2..
+[2022.12.16-22.11.53:342][ 48]AssetCheck: New page: Asset Save: Level2
+[2022.12.16-22.11.53:342][ 48]LogContentValidation: Display: Validating World /Game/Maps/Level2.Level2
